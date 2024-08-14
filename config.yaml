@@ -1,0 +1,9 @@
+path: /home/lugo8/eosProj  # dataset root dir
+train: trainData/train/images  # train images (relative to 'path')
+val: trainData/val/images  # val images (relative to 'path')
+test: trainData/test/images # test images (relative to 'path')
+
+# Classes
+names:
+  0: Satellite
+nc: 1

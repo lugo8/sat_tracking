@@ -1,0 +1,36 @@
+# Ignore everything in specific subdirectories
+permutImgsTrain/*
+permutImgsVal/*
+ogTrainImgs/*
+ogValImgs/*
+satsimOutput/*
+trainData/*
+trainData/test/images/*
+trainData/test/labels/*
+trainData/train/images/*
+trainData/train/labels/*
+trainData/val/images/*
+trainData/val/labels/*
+
+
+
+# Do not ignore the directories themselves
+!permutImgsTrain/
+!permutImgsVal/
+!ogTrainImgs/
+!ogValImgs/
+!satsimOutput/
+!trainData/
+!trainData/test/
+!trainData/train/
+!trainData/val/
+!trainData/test/images/
+!trainData/test/labels/
+!trainData/train/images/
+!trainData/train/labels/
+!trainData/val/images/
+!trainData/val/labels/
+!*.gitkeep
+
+# Do not ignore any files in other directories or root
+!/
