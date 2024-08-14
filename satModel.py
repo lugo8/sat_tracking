@@ -4,7 +4,6 @@ from yoloTraining import train
 
 def makeModel():
     # print("1")
-    #TODO: make enough for train, validation, and test
     genData("satsim_dynamic_for_austin_v2.json", 2400)
     # print("2")
     convert("satsimOutput", 1, 2000, 200, 200)
