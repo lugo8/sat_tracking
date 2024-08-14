@@ -508,11 +508,11 @@ def plotResults(file):
 
 if __name__ == "__main__":
     #allImgs("Train")
-    #batchModel("runs/detect/train24/weights/best.pt", "lastPermut.txt", "Train", batch=1)
+    batchModel("runs/detect/train24/weights/best.pt", "lastPermut.txt", "Train", batch=1)
     #allImgs("Val")
     #batchModel("runs/detect/train24/weights/best.pt", "lastPermut.txt", "Val", batch=2)
     #testProcess()
-    plotResults("permutResultsTrain.csv")
+    #plotResults("permutResultsTrain.csv")
 
 
  
